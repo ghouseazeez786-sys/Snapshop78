@@ -3,14 +3,14 @@
    install as a PWA and re-open instantly / work offline for already-visited
    screens. Bump CACHE_NAME whenever you ship a new version of index.html so
    returning users get the update instead of a stale cached copy. */
-const CACHE_NAME = 'snapshop-ai-v1';
+const CACHE_NAME = 'snapshop-ai-v2';
 const APP_SHELL = [
   './',
   './index.html',
   './manifest.json',
-  './icons/icon-192.png',
-  './icons/icon-512.png',
-  './icons/icon-maskable-512.png',
+  './icon-192.png',
+  './icon-512.png',
+  './icon-maskable-512.png',
 ];
 
 self.addEventListener('install', event => {
